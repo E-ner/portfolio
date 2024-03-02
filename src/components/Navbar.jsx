@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Navbar = () => {
   return (
     <div>
       <div>
-        <button className="hover:bg-zinc-300 rounded-full p-2 md:hidden hover:drop-shadow-lg text-3xl">
+        <button className="hover:bg-zinc-300 rounded-full p-2 ml-3 md:hidden hover:drop-shadow-lg text-3xl">
           <i class="bx bx-menu-alt-left"></i>
         </button>
       </div>

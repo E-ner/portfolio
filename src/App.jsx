@@ -4,7 +4,7 @@ import { Home } from './pages';
 
 const App = () => {
   return (
-    <div className='md:px-40 lg:mt-10 md:mt-10 px-1 mt-5'>
+    <div className='md:px-40 lg:mt-10 md:mt-10 mt-5'>
       <Navbar/>
       <Home/>
     </div>
