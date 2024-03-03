@@ -19,22 +19,22 @@ const Navbar = () => {
             <p className="text-[10px]"> Fullstack Developer</p>
           </span>
           <nav className="font-sans flex gap-3 text-sm flex-col mt-10">
-            <a className="cursor-pointer hover:bg-zinc-500 pr-20 rounded-sm py-3 pl-5">Home</a>
-            <a className="cursor-pointer hover:bg-zinc-500 pr-20 rounded-sm py-3 pl-5">About</a>
-            <a className="cursor-pointer hover:bg-zinc-500 pr-20 rounded-sm py-3 pl-5">Skills</a>
-            <a className="cursor-pointer hover:bg-zinc-500 pr-20 rounded-sm py-3 pl-5 rounded-bl-lg rounded-br-lg">Contact</a>
+            <a className="cursor-pointer hover:bg-zinc-400 pr-20 rounded-sm py-3 pl-5">Home</a>
+            <a className="cursor-pointer hover:bg-zinc-400 pr-20 rounded-sm py-3 pl-5">About</a>
+            <a className="cursor-pointer hover:bg-zinc-400 pr-20 rounded-sm py-3 pl-5">Skills</a>
+            <a className="cursor-pointer hover:bg-zinc-400 pr-20 rounded-sm py-3 pl-5 rounded-bl-lg rounded-br-lg">Contact</a>
           </nav>
         </div>
       ): ""}
-      <div className="md:flex flex-row mx-auto text-zinc-800 hidden">
+      <div className="md:flex flex-row mx-auto text-zinc-500 hidden">
         <span>
           <p className="text-lg">N.Eric</p>
         </span>
-        <nav className="font-sans ml-auto flex gap-10 text-lg">
+        <nav className="font-sans ml-auto flex gap-10 text-lg text-zinc-500">
           <a className="cursor-pointer">Home</a>
-          <a>About</a>
-          <a>Skills</a>
-          <a>Contact</a>
+          <a className="cursor-pointer">About</a>
+          <a className="cursor-pointer">Skills</a>
+          <a className="cursor-pointer">Contact</a>
         </nav>
       </div>
     </div>

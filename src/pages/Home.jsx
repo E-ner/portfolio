@@ -36,28 +36,28 @@ const Home = () => {
           <div className="blob md:hidden grayscale" />
         </div>
 
-        <div className="md:flex hidden flex-col text-zinc-800 gap-3">
+        <div className="md:flex hidden flex-col text-zinc-500 gap-3">
           <a
             href=""
-            className="text-2xl hover:bg-zinc-200 p-2 rounded-full text-center hover:drop-shadow-xl"
+            className="text-2xl hover:bg-zinc-200 hover:text-zinc-800 p-2 rounded-full text-center hover:drop-shadow-xl"
           >
             <i className="bx bxl-github"></i>
           </a>
           <a
             href=""
-            className="text-2xl p-2 hover:bg-zinc-200 rounded-full text-center hover:drop-shadow-xl"
+            className="text-2xl hover:bg-zinc-200 hover:text-zinc-800 p-2 rounded-full text-center hover:drop-shadow-xl"
           >
             <i className="bx bxl-linkedin"></i>
           </a>
           <a
             href=""
-            className="text-2xl p-2 hover:bg-zinc-200 rounded-full text-center hover:drop-shadow-xl"
+            className="text-2xl hover:bg-zinc-200 hover:text-zinc-800 p-2 rounded-full text-center hover:drop-shadow-xl"
           >
             <i className="bx bxl-gmail"></i>
           </a>
           <a
             href=""
-            className="text-2xl p-2 hover:bg-zinc-200 rounded-full text-center hover:drop-shadow-xl"
+            className="text-2xl hover:bg-zinc-200 hover:text-zinc-800 p-2 rounded-full text-center hover:drop-shadow-xl"
           >
             <i className="bx bxl-twitter"></i>
           </a>

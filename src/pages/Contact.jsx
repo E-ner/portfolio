@@ -51,7 +51,7 @@ const Contact = () => {
                 type="email"
                 id="useremail"
                 name="email"
-                class="peer bg-transparent h-14 w-76 pt-1 py-2 rounded-lg text-zinc-700 placeholder-transparent ring-2 px-2 ring-gray-500 focus:ring-sky-600 focus:outline-none focus:border-rose-600"
+                class="peer bg-transparent h-14 w-76 pt-1 py-2 rounded-lg text-zinc-400 placeholder-transparent ring-2 px-2 ring-gray-500 focus:ring-sky-600 focus:outline-none focus:border-rose-600"
                 placeholder="Insert email address"
               />
               <label
@@ -66,7 +66,7 @@ const Contact = () => {
                 type="text"
                 id="username"
                 name="username"
-                class="peer bg-transparent h-14 w-76 pt-1 py-2 rounded-lg text-zinc-700 placeholder-transparent ring-2 px-2 ring-gray-500 focus:ring-sky-600 focus:outline-none focus:border-rose-600"
+                class="peer bg-transparent h-14 w-76 pt-1 py-2 rounded-lg text-zinc-400 placeholder-transparent ring-2 px-2 ring-gray-500 focus:ring-sky-600 focus:outline-none focus:border-rose-600"
                 placeholder="Names"
               />
               <label
@@ -81,7 +81,7 @@ const Contact = () => {
                 type="text"
                 id="mesage"
                 name="mesage"
-                class="peer bg-transparent h-72 w-76 pt-5 rounded-lg text-zinc-700 placeholder-transparent ring-2 px-2 ring-gray-500 focus:ring-sky-600 focus:outline-none focus:border-rose-600"
+                class="peer bg-transparent h-72 w-76 pt-5 rounded-lg text-zinc-400 placeholder-transparent ring-2 px-2 ring-gray-500 focus:ring-sky-600 focus:outline-none focus:border-rose-600"
                 placeholder="Names"
               />
               <label
