@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-  @apply bg-white;
+  @apply bg-black;
 }
 .blob{
   background-image: url('./assets/profile.jpg');

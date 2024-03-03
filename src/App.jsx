@@ -1,12 +1,17 @@
 import React from 'react'
-import { Navbar } from './components';
-import { Home } from './pages';
+import { Footer, Navbar } from './components';
+import { About, Home,Contact, SKills, Work } from './pages';
 
 const App = () => {
   return (
-    <div className='md:px-40 lg:mt-10 md:mt-10 mt-5'>
+    <div className='md:px-40 '>
       <Navbar/>
       <Home/>
+      <About/>
+      <SKills/>
+      <Work/>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }

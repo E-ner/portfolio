@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div>
+    <div className="md:mt-40" id="Home">
       <div className="flex md:flex-row mt-20 items-center flex-col justify-between gap-20 sm:mx-auto ml-5 mx-0">
         <div className="flex md:hidden flex-row items-center gap-6">
           <div className="flex flex-col text-zinc-800 gap-3">
@@ -82,15 +82,16 @@ const Home = () => {
             </span>
             <button className="flex flex-row items-center bg-zinc-800 p-4 px-6 rounded-xl mt-10 text-zinc-100 drop-shadow-md text-lg text-center h-16 hover:opacity-90">
               Say Hello
-              <i className="bx bx-send ml-3 text-2xl text-center" />
+              <i className="bx bxs-navigation ml-3 text-2xl text-center" />
             </button>
           </div>
           <div className="blob grayscale hidden md:block" />
         </div>
       </div>
 
-      <motion.button
-        className="w-44 md:flex hidden text-sm gap-1 flex-row text-zinc-700 py-4 px-4 rounded-xl items-center hover:drop-shadow-xl hover:bg-zinc-200 mt-14 md:ml-48 ml-auto mr-auto"
+      <motion.a
+      href="#Home"
+        className="w-44 md:flex hidden text-sm gap-1 flex-row text-zinc-700 py-4 px-4 rounded-xl items-center hover:drop-shadow-xl hover:bg-zinc-200 mt-14 dark:hover:bg-zinc-950 md:ml-48 ml-auto mr-auto"
         initial={{
           translateY: 0,
         }}
@@ -107,8 +108,8 @@ const Home = () => {
       >
         <i className="bx bx-mouse text-3xl" />
         Scroll Down
-        <i class="bx bx-chevron-down text-2xl"></i>
-      </motion.button>
+        <i className="bx bx-chevron-down text-2xl"></i>
+      </motion.a>
     </div>
   );
 };

@@ -1,9 +1,7 @@
 import Navbar from "./Navbar";
-import Buttons from "./Buttons";
-import ImageContainer from "./ImageContainer";
+import Footer from "./Footer";
 
 export{
     Navbar,
-    Buttons,
-    ImageContainer
+    Footer
 }
