@@ -69,7 +69,7 @@ const Home = () => {
                 <h1 className="font-poppins text-7xl font-bold text-zinc-800">
                   N Eric
                 </h1>
-                <img src="/src/assets/hand.svg" className="w-10" />
+                <img src="./src/assets/hand.svg" className="w-10" />
               </div>
               <span className="flex flex-row items-center gap-7 font-poppins mt-5">
                 <span className="bg-zinc-400 w-20 h-0.5 rounded-full"> </span>
