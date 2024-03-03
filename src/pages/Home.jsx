@@ -33,7 +33,7 @@ const Home = () => {
               <i className="bx bxl-twitter"></i>
             </a>
           </div>
-          <div className="blob md:hidden grayscale" />
+          <div className="blob bg-[url('./profile.jpg')] md:hidden grayscale" />
         </div>
 
         <div className="md:flex hidden flex-col text-zinc-500 gap-3">
@@ -85,7 +85,7 @@ const Home = () => {
               <i className="bx bxs-navigation ml-3 text-2xl text-center" />
             </button>
           </div>
-          <div className="blob grayscale hidden md:block" />
+          <div className="blob bg-[url('./profile.jpg')] grayscale hidden md:block" />
         </div>
       </div>
 
