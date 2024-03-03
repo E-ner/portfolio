@@ -13,7 +13,7 @@ const About = () => {
       <div className="mb-10">
         <div className="flex md:flex-row flex-col mt-20 items-center">
           <img
-            src="/src/assets/profile.jpg"
+            src="./profile.jpg"
             className="w-auto rounded-xl grayscale h-80"
           />
           <div className="w-full md:pl-20 px-6">

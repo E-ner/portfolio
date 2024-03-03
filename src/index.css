@@ -6,7 +6,7 @@ body{
   @apply bg-black;
 }
 .blob{
-  background-image: url('./assets/profile.jpg');
+  background-image: url('./profile.jpg');
   width: 260px;
   height: 260px;
   background-size: cover;
